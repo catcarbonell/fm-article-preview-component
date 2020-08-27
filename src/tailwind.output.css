@@ -1440,6 +1440,50 @@ body {
   background-color: rgba(72, 85, 106, var(--bg-opacity));
 }
 
+.active\:bg-transparent:active {
+  background-color: transparent;
+}
+
+.active\:bg-current:active {
+  background-color: currentColor;
+}
+
+.active\:bg-black:active {
+  --bg-opacity: 1;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, var(--bg-opacity));
+}
+
+.active\:bg-white:active {
+  --bg-opacity: 1;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+}
+
+.active\:bg-custom-100:active {
+  --bg-opacity: 1;
+  background-color: #ECF2F8;
+  background-color: rgba(236, 242, 248, var(--bg-opacity));
+}
+
+.active\:bg-custom-200:active {
+  --bg-opacity: 1;
+  background-color: #9EAFC2;
+  background-color: rgba(158, 175, 194, var(--bg-opacity));
+}
+
+.active\:bg-custom-300:active {
+  --bg-opacity: 1;
+  background-color: #6D7F97;
+  background-color: rgba(109, 127, 151, var(--bg-opacity));
+}
+
+.active\:bg-custom-400:active {
+  --bg-opacity: 1;
+  background-color: #48556A;
+  background-color: rgba(72, 85, 106, var(--bg-opacity));
+}
+
 .bg-none {
   background-image: none;
 }
@@ -6122,6 +6166,50 @@ body {
   color: rgba(72, 85, 106, var(--text-opacity));
 }
 
+.active\:text-transparent:active {
+  color: transparent;
+}
+
+.active\:text-current:active {
+  color: currentColor;
+}
+
+.active\:text-black:active {
+  --text-opacity: 1;
+  color: #000;
+  color: rgba(0, 0, 0, var(--text-opacity));
+}
+
+.active\:text-white:active {
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
+}
+
+.active\:text-custom-100:active {
+  --text-opacity: 1;
+  color: #ECF2F8;
+  color: rgba(236, 242, 248, var(--text-opacity));
+}
+
+.active\:text-custom-200:active {
+  --text-opacity: 1;
+  color: #9EAFC2;
+  color: rgba(158, 175, 194, var(--text-opacity));
+}
+
+.active\:text-custom-300:active {
+  --text-opacity: 1;
+  color: #6D7F97;
+  color: rgba(109, 127, 151, var(--text-opacity));
+}
+
+.active\:text-custom-400:active {
+  --text-opacity: 1;
+  color: #48556A;
+  color: rgba(72, 85, 106, var(--text-opacity));
+}
+
 .text-opacity-0 {
   --text-opacity: 0;
 }
@@ -10181,6 +10269,50 @@ body {
   }
 
   .sm\:focus\:bg-custom-400:focus {
+    --bg-opacity: 1;
+    background-color: #48556A;
+    background-color: rgba(72, 85, 106, var(--bg-opacity));
+  }
+
+  .sm\:active\:bg-transparent:active {
+    background-color: transparent;
+  }
+
+  .sm\:active\:bg-current:active {
+    background-color: currentColor;
+  }
+
+  .sm\:active\:bg-black:active {
+    --bg-opacity: 1;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, var(--bg-opacity));
+  }
+
+  .sm\:active\:bg-white:active {
+    --bg-opacity: 1;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, var(--bg-opacity));
+  }
+
+  .sm\:active\:bg-custom-100:active {
+    --bg-opacity: 1;
+    background-color: #ECF2F8;
+    background-color: rgba(236, 242, 248, var(--bg-opacity));
+  }
+
+  .sm\:active\:bg-custom-200:active {
+    --bg-opacity: 1;
+    background-color: #9EAFC2;
+    background-color: rgba(158, 175, 194, var(--bg-opacity));
+  }
+
+  .sm\:active\:bg-custom-300:active {
+    --bg-opacity: 1;
+    background-color: #6D7F97;
+    background-color: rgba(109, 127, 151, var(--bg-opacity));
+  }
+
+  .sm\:active\:bg-custom-400:active {
     --bg-opacity: 1;
     background-color: #48556A;
     background-color: rgba(72, 85, 106, var(--bg-opacity));
@@ -14868,6 +15000,50 @@ body {
     color: rgba(72, 85, 106, var(--text-opacity));
   }
 
+  .sm\:active\:text-transparent:active {
+    color: transparent;
+  }
+
+  .sm\:active\:text-current:active {
+    color: currentColor;
+  }
+
+  .sm\:active\:text-black:active {
+    --text-opacity: 1;
+    color: #000;
+    color: rgba(0, 0, 0, var(--text-opacity));
+  }
+
+  .sm\:active\:text-white:active {
+    --text-opacity: 1;
+    color: #fff;
+    color: rgba(255, 255, 255, var(--text-opacity));
+  }
+
+  .sm\:active\:text-custom-100:active {
+    --text-opacity: 1;
+    color: #ECF2F8;
+    color: rgba(236, 242, 248, var(--text-opacity));
+  }
+
+  .sm\:active\:text-custom-200:active {
+    --text-opacity: 1;
+    color: #9EAFC2;
+    color: rgba(158, 175, 194, var(--text-opacity));
+  }
+
+  .sm\:active\:text-custom-300:active {
+    --text-opacity: 1;
+    color: #6D7F97;
+    color: rgba(109, 127, 151, var(--text-opacity));
+  }
+
+  .sm\:active\:text-custom-400:active {
+    --text-opacity: 1;
+    color: #48556A;
+    color: rgba(72, 85, 106, var(--text-opacity));
+  }
+
   .sm\:text-opacity-0 {
     --text-opacity: 0;
   }
@@ -18862,6 +19038,50 @@ body {
   }
 
   .md\:focus\:bg-custom-400:focus {
+    --bg-opacity: 1;
+    background-color: #48556A;
+    background-color: rgba(72, 85, 106, var(--bg-opacity));
+  }
+
+  .md\:active\:bg-transparent:active {
+    background-color: transparent;
+  }
+
+  .md\:active\:bg-current:active {
+    background-color: currentColor;
+  }
+
+  .md\:active\:bg-black:active {
+    --bg-opacity: 1;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, var(--bg-opacity));
+  }
+
+  .md\:active\:bg-white:active {
+    --bg-opacity: 1;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, var(--bg-opacity));
+  }
+
+  .md\:active\:bg-custom-100:active {
+    --bg-opacity: 1;
+    background-color: #ECF2F8;
+    background-color: rgba(236, 242, 248, var(--bg-opacity));
+  }
+
+  .md\:active\:bg-custom-200:active {
+    --bg-opacity: 1;
+    background-color: #9EAFC2;
+    background-color: rgba(158, 175, 194, var(--bg-opacity));
+  }
+
+  .md\:active\:bg-custom-300:active {
+    --bg-opacity: 1;
+    background-color: #6D7F97;
+    background-color: rgba(109, 127, 151, var(--bg-opacity));
+  }
+
+  .md\:active\:bg-custom-400:active {
     --bg-opacity: 1;
     background-color: #48556A;
     background-color: rgba(72, 85, 106, var(--bg-opacity));
@@ -23549,6 +23769,50 @@ body {
     color: rgba(72, 85, 106, var(--text-opacity));
   }
 
+  .md\:active\:text-transparent:active {
+    color: transparent;
+  }
+
+  .md\:active\:text-current:active {
+    color: currentColor;
+  }
+
+  .md\:active\:text-black:active {
+    --text-opacity: 1;
+    color: #000;
+    color: rgba(0, 0, 0, var(--text-opacity));
+  }
+
+  .md\:active\:text-white:active {
+    --text-opacity: 1;
+    color: #fff;
+    color: rgba(255, 255, 255, var(--text-opacity));
+  }
+
+  .md\:active\:text-custom-100:active {
+    --text-opacity: 1;
+    color: #ECF2F8;
+    color: rgba(236, 242, 248, var(--text-opacity));
+  }
+
+  .md\:active\:text-custom-200:active {
+    --text-opacity: 1;
+    color: #9EAFC2;
+    color: rgba(158, 175, 194, var(--text-opacity));
+  }
+
+  .md\:active\:text-custom-300:active {
+    --text-opacity: 1;
+    color: #6D7F97;
+    color: rgba(109, 127, 151, var(--text-opacity));
+  }
+
+  .md\:active\:text-custom-400:active {
+    --text-opacity: 1;
+    color: #48556A;
+    color: rgba(72, 85, 106, var(--text-opacity));
+  }
+
   .md\:text-opacity-0 {
     --text-opacity: 0;
   }
@@ -27543,6 +27807,50 @@ body {
   }
 
   .lg\:focus\:bg-custom-400:focus {
+    --bg-opacity: 1;
+    background-color: #48556A;
+    background-color: rgba(72, 85, 106, var(--bg-opacity));
+  }
+
+  .lg\:active\:bg-transparent:active {
+    background-color: transparent;
+  }
+
+  .lg\:active\:bg-current:active {
+    background-color: currentColor;
+  }
+
+  .lg\:active\:bg-black:active {
+    --bg-opacity: 1;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, var(--bg-opacity));
+  }
+
+  .lg\:active\:bg-white:active {
+    --bg-opacity: 1;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, var(--bg-opacity));
+  }
+
+  .lg\:active\:bg-custom-100:active {
+    --bg-opacity: 1;
+    background-color: #ECF2F8;
+    background-color: rgba(236, 242, 248, var(--bg-opacity));
+  }
+
+  .lg\:active\:bg-custom-200:active {
+    --bg-opacity: 1;
+    background-color: #9EAFC2;
+    background-color: rgba(158, 175, 194, var(--bg-opacity));
+  }
+
+  .lg\:active\:bg-custom-300:active {
+    --bg-opacity: 1;
+    background-color: #6D7F97;
+    background-color: rgba(109, 127, 151, var(--bg-opacity));
+  }
+
+  .lg\:active\:bg-custom-400:active {
     --bg-opacity: 1;
     background-color: #48556A;
     background-color: rgba(72, 85, 106, var(--bg-opacity));
@@ -32230,6 +32538,50 @@ body {
     color: rgba(72, 85, 106, var(--text-opacity));
   }
 
+  .lg\:active\:text-transparent:active {
+    color: transparent;
+  }
+
+  .lg\:active\:text-current:active {
+    color: currentColor;
+  }
+
+  .lg\:active\:text-black:active {
+    --text-opacity: 1;
+    color: #000;
+    color: rgba(0, 0, 0, var(--text-opacity));
+  }
+
+  .lg\:active\:text-white:active {
+    --text-opacity: 1;
+    color: #fff;
+    color: rgba(255, 255, 255, var(--text-opacity));
+  }
+
+  .lg\:active\:text-custom-100:active {
+    --text-opacity: 1;
+    color: #ECF2F8;
+    color: rgba(236, 242, 248, var(--text-opacity));
+  }
+
+  .lg\:active\:text-custom-200:active {
+    --text-opacity: 1;
+    color: #9EAFC2;
+    color: rgba(158, 175, 194, var(--text-opacity));
+  }
+
+  .lg\:active\:text-custom-300:active {
+    --text-opacity: 1;
+    color: #6D7F97;
+    color: rgba(109, 127, 151, var(--text-opacity));
+  }
+
+  .lg\:active\:text-custom-400:active {
+    --text-opacity: 1;
+    color: #48556A;
+    color: rgba(72, 85, 106, var(--text-opacity));
+  }
+
   .lg\:text-opacity-0 {
     --text-opacity: 0;
   }
@@ -36224,6 +36576,50 @@ body {
   }
 
   .xl\:focus\:bg-custom-400:focus {
+    --bg-opacity: 1;
+    background-color: #48556A;
+    background-color: rgba(72, 85, 106, var(--bg-opacity));
+  }
+
+  .xl\:active\:bg-transparent:active {
+    background-color: transparent;
+  }
+
+  .xl\:active\:bg-current:active {
+    background-color: currentColor;
+  }
+
+  .xl\:active\:bg-black:active {
+    --bg-opacity: 1;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, var(--bg-opacity));
+  }
+
+  .xl\:active\:bg-white:active {
+    --bg-opacity: 1;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, var(--bg-opacity));
+  }
+
+  .xl\:active\:bg-custom-100:active {
+    --bg-opacity: 1;
+    background-color: #ECF2F8;
+    background-color: rgba(236, 242, 248, var(--bg-opacity));
+  }
+
+  .xl\:active\:bg-custom-200:active {
+    --bg-opacity: 1;
+    background-color: #9EAFC2;
+    background-color: rgba(158, 175, 194, var(--bg-opacity));
+  }
+
+  .xl\:active\:bg-custom-300:active {
+    --bg-opacity: 1;
+    background-color: #6D7F97;
+    background-color: rgba(109, 127, 151, var(--bg-opacity));
+  }
+
+  .xl\:active\:bg-custom-400:active {
     --bg-opacity: 1;
     background-color: #48556A;
     background-color: rgba(72, 85, 106, var(--bg-opacity));
@@ -40906,6 +41302,50 @@ body {
   }
 
   .xl\:focus\:text-custom-400:focus {
+    --text-opacity: 1;
+    color: #48556A;
+    color: rgba(72, 85, 106, var(--text-opacity));
+  }
+
+  .xl\:active\:text-transparent:active {
+    color: transparent;
+  }
+
+  .xl\:active\:text-current:active {
+    color: currentColor;
+  }
+
+  .xl\:active\:text-black:active {
+    --text-opacity: 1;
+    color: #000;
+    color: rgba(0, 0, 0, var(--text-opacity));
+  }
+
+  .xl\:active\:text-white:active {
+    --text-opacity: 1;
+    color: #fff;
+    color: rgba(255, 255, 255, var(--text-opacity));
+  }
+
+  .xl\:active\:text-custom-100:active {
+    --text-opacity: 1;
+    color: #ECF2F8;
+    color: rgba(236, 242, 248, var(--text-opacity));
+  }
+
+  .xl\:active\:text-custom-200:active {
+    --text-opacity: 1;
+    color: #9EAFC2;
+    color: rgba(158, 175, 194, var(--text-opacity));
+  }
+
+  .xl\:active\:text-custom-300:active {
+    --text-opacity: 1;
+    color: #6D7F97;
+    color: rgba(109, 127, 151, var(--text-opacity));
+  }
+
+  .xl\:active\:text-custom-400:active {
     --text-opacity: 1;
     color: #48556A;
     color: rgba(72, 85, 106, var(--text-opacity));
