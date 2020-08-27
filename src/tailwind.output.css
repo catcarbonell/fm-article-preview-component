@@ -6276,6 +6276,10 @@ body {
   letter-spacing: 0.1em;
 }
 
+.tracking-hella {
+  letter-spacing: 0.5em;
+}
+
 .select-none {
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -15018,6 +15022,10 @@ body {
     letter-spacing: 0.1em;
   }
 
+  .sm\:tracking-hella {
+    letter-spacing: 0.5em;
+  }
+
   .sm\:select-none {
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -23693,6 +23701,10 @@ body {
 
   .md\:tracking-widest {
     letter-spacing: 0.1em;
+  }
+
+  .md\:tracking-hella {
+    letter-spacing: 0.5em;
   }
 
   .md\:select-none {
@@ -32372,6 +32384,10 @@ body {
     letter-spacing: 0.1em;
   }
 
+  .lg\:tracking-hella {
+    letter-spacing: 0.5em;
+  }
+
   .lg\:select-none {
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -41047,6 +41063,10 @@ body {
 
   .xl\:tracking-widest {
     letter-spacing: 0.1em;
+  }
+
+  .xl\:tracking-hella {
+    letter-spacing: 0.5em;
   }
 
   .xl\:select-none {
