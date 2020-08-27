@@ -14,9 +14,9 @@ const App = () => {
             src={drawers} 
             alt="A green drawer with a vase and some wheat strands on it" />
         <Description />
-        <ShareButton />
-        <Share />
         <User />
+        <Share />
+        <ShareButton />
       </div>
     </div>
   );

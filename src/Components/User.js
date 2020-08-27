@@ -3,8 +3,8 @@ import avatar from '../Assets/avatar-michelle.jpg';
 
 const User = () => {
     return(
-        <div className="absolute z-0 flex flex-row w-full px-4 pb-4">
-            <div className="w-3/4 mx-auto flex flex-row justify-start">
+        <div className="relative flex flex-row w-full px-4 pb-4">
+            <div className="w-3/4 flex flex-row justify-start">
                 <img className="w-10 h-10 rounded-full shadow" src={avatar} alt="User Michelle Appleton" />
                 <div className="ml-2">
                     <h2 className="font-bold text-md text-custom-400">

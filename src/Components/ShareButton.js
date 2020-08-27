@@ -4,12 +4,15 @@ import { faShare } from '@fortawesome/free-solid-svg-icons';
 
 const ShareButton = () =>{
     return(
-        <div className="relative w-full p-4 relative flex justify-end items-center cursor-pointer"> 
-            <div className="absolute z-30  w-8 h-8 rounded-full 
+        <div className="absolute z-30 bottom-0 inset-x-0 
+                        w-full h-16 px-8 cursor-pointer
+                        flex justify-end items-center"> 
+            <div className="w-8 h-8 rounded-full 
                             flex justify-center items-center 
                             text-custom-300 bg-custom-100
-                            hover:text-custom-100 hover:bg-custom-400">
-                <FontAwesomeIcon icon={faShare} />
+                            hover:text-custom-100 hover:bg-custom-400
+                            active:text-white active:bg-custom-300">
+                <FontAwesomeIcon size="lg" icon={faShare} />
             </div>
     </div>
     );
