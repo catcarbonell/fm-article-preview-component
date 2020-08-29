@@ -4422,6 +4422,10 @@ body {
   max-width: 100%;
 }
 
+.max-w-custom {
+  max-width: 680px;
+}
+
 .max-w-screen-sm {
   max-width: 640px;
 }
@@ -4456,6 +4460,10 @@ body {
 
 .min-w-full {
   min-width: 100%;
+}
+
+.min-w-custom {
+  min-width: 680px;
 }
 
 .object-contain {
@@ -13256,6 +13264,10 @@ body {
     max-width: 100%;
   }
 
+  .sm\:max-w-custom {
+    max-width: 680px;
+  }
+
   .sm\:max-w-screen-sm {
     max-width: 640px;
   }
@@ -13290,6 +13302,10 @@ body {
 
   .sm\:min-w-full {
     min-width: 100%;
+  }
+
+  .sm\:min-w-custom {
+    min-width: 680px;
   }
 
   .sm\:object-contain {
@@ -22025,6 +22041,10 @@ body {
     max-width: 100%;
   }
 
+  .md\:max-w-custom {
+    max-width: 680px;
+  }
+
   .md\:max-w-screen-sm {
     max-width: 640px;
   }
@@ -22059,6 +22079,10 @@ body {
 
   .md\:min-w-full {
     min-width: 100%;
+  }
+
+  .md\:min-w-custom {
+    min-width: 680px;
   }
 
   .md\:object-contain {
@@ -30794,6 +30818,10 @@ body {
     max-width: 100%;
   }
 
+  .lg\:max-w-custom {
+    max-width: 680px;
+  }
+
   .lg\:max-w-screen-sm {
     max-width: 640px;
   }
@@ -30828,6 +30856,10 @@ body {
 
   .lg\:min-w-full {
     min-width: 100%;
+  }
+
+  .lg\:min-w-custom {
+    min-width: 680px;
   }
 
   .lg\:object-contain {
@@ -39563,6 +39595,10 @@ body {
     max-width: 100%;
   }
 
+  .xl\:max-w-custom {
+    max-width: 680px;
+  }
+
   .xl\:max-w-screen-sm {
     max-width: 640px;
   }
@@ -39597,6 +39633,10 @@ body {
 
   .xl\:min-w-full {
     min-width: 100%;
+  }
+
+  .xl\:min-w-custom {
+    min-width: 680px;
   }
 
   .xl\:object-contain {

@@ -17,9 +17,10 @@ const App = () => {
       <ShareButton toggleShare={toggleShare} />
       <Share shareActive={shareActive} setShareActive={setShareActive} />
 
-      <div className="md:flex md:flex-row md:w-2/4 md:h-64
+      <div className="md:min-w-custom md:max-w-custom 
+                      md:flex md:flex-row md:w-2/4 md:h-64
                       relative z-0 w-5/6 overflow-hidden bg-white rounded-lg shadow-lg">  
-        <div className="md:w-64 h-auto">
+        <div className="md:w-64 w-full h-auto">
           <img className=" md:h-full md:object-left-top h-16 w-full object-cover" 
               src={drawers} 
               alt="A green drawer with a vase and some wheat strands on it" />
