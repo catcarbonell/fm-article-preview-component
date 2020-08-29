@@ -6,15 +6,15 @@ const Share = ({ shareActive }) => {
     return(
         <>
         {shareActive &&
-        <div className="absolute z-10 inset-x-0 bottom-0 mb-32
-                        md:inset-y-auto md:bottom-auto md:left-auto
-                        md:mt-20 md:mr-64 md:pr-56">
-            <div className="w-5/6 h-16 px-8 mx-auto
+        <div className="absolute z-10 inset-x-0 bottom-0
+                        md:inset-y-auto md:left-auto 
+                        md:mt-24 md:-mr-16">
+            <div className="w-full h-16 px-8 mx-auto
                             flex flex-row justify-start items-center
                             bg-custom-400
                             md:w-64 md:h-12
                             md:justify-center
-                            md:rounded-md md:shadow-lg">
+                            md:rounded-md md:shadow-xl">
                 <div className="flex content-around items-center">
                     <h3 className="uppercase text-custom-200 tracking-hella">Share</h3>
                     <FontAwesomeIcon className="text-custom-100 m-2" size="lg" icon={faFacebook} />
