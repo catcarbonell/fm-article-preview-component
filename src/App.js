@@ -29,7 +29,7 @@ const App = () => {
                         m-auto px-8 pt-8">
           <Description />
           <ShareButton toggleShare={toggleShare} />
-          <Share shareActive={shareActive} setShareActive={setShareActive} />
+          <Share shareActive={shareActive} />
           <User />
 
         </div>
